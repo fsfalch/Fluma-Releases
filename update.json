@@ -1,8 +1,8 @@
 {
-  "versionCode": 26,
-  "versionName": "0.4.2",
-  "apkUrl": "https://github.com/fsfalch/Fluma-Releases/releases/download/v0.4.2/Fluma-0.4.2.apk",
-  "sha256": "b1ff090f0f34fb59550ba12b18110765f0c291c1a53aadd2d6d9fe76c2eda6d9",
+  "versionCode": 27,
+  "versionName": "0.4.3",
+  "apkUrl": "https://github.com/fsfalch/Fluma-Releases/releases/download/v0.4.3/Fluma-0.4.3.apk",
+  "sha256": "59bd695db53fb5ebb02058a9ed13512584e8d6c97e20763ec5ba2bde86e0c40e",
   "notes": "Prévia técnica do Fluma por F. Labs. App em desenvolvimento e não homologado para diagnóstico, terapia ou atendimento de emergência.",
   "mandatory": false
 }
