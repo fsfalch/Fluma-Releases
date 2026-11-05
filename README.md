@@ -20,7 +20,7 @@ O app confere SHA-256, pacote, versão e certificado do APK. A instalação depe
 
 ## Estágio do produto
 
-**Prévia técnica pública**, com **homologação funcional da 0.9.2 concluída no Android real em 05/11/2026 (13/13 testes aprovados, sem falhas relatadas)**. Isso não equivale à aprovação clínica, de segurança ou regulatória. Testes negativos de OTA e backup automático, restauração com OAuth Google em instalação independente, auditorias LGPD/segurança, revisão clínica dos artigos e análise jurídica/regulatória **continuam pendentes**.
+**Prévia técnica pública**, com **homologação funcional da 0.9.2 concluída no Android real (13/13 testes aprovados)** e **rodada complementar de acessibilidade TalkBack aprovada (5/5)** pelo responsável em 05/11/2026, sem falhas relatadas. São aceites funcionais, não certificação externa de acessibilidade, clínica, segurança ou regulação. Os controles especializados continuam pendentes. Testes negativos de OTA e backup automático, restauração com OAuth Google em instalação independente, auditorias LGPD/segurança, revisão clínica dos artigos e análise jurídica/regulatória **continuam pendentes**.
 
 Fluma **não diagnostica, não presta psicoterapia, não prevê crises e não substitui profissionais ou serviços de emergência**. Em perigo imediato no Brasil, contate o serviço de emergência adequado (por exemplo, SAMU 192).
 
