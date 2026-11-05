@@ -1,20 +1,29 @@
-# Fluma — Releases oficiais
+# Fluma — OTA público da F. Labs
 
-**Fluma**, da **F. Labs**, é um aplicativo Android especializado em informação e recursos de apoio relacionados ao transtorno de personalidade borderline (TPB).
+**Fluma** é um aplicativo Android gratuito e sem anúncios, com conteúdos educativos e recursos opcionais de apoio cotidiano relacionados ao transtorno de personalidade borderline (TPB).
 
-## Estado
-**Nenhuma versão pública está disponível neste momento.** O aplicativo está em desenvolvimento e testes internos; não foi homologado para uso clínico. Não distribua APKs de desenvolvimento.
+## Última prévia técnica disponível
 
-Este repositório é o **canal público de distribuição OTA do Android**. Depois da aprovação dos testes e avaliações necessárias, conterá apenas:
-- APKs Android oficiais e assinados, em Releases;
-- `update.json`, com versão, URL do APK, SHA-256 e notas;
-- informações públicas de lançamento.
+- **Versão:** **0.9.2** · `versionCode 51` · publicação em **05/11/2026**.
+- **Release:** [Fluma v0.9.2](https://github.com/fsfalch/Fluma-Releases/releases/tag/v0.9.2).
+- **APK assinado:** [Fluma-0.9.2.apk](https://github.com/fsfalch/Fluma-Releases/releases/download/v0.9.2/Fluma-0.9.2.apk).
+- **Manifesto OTA:** [update.json](https://github.com/fsfalch/Fluma-Releases/blob/main/update.json) (ver `versionName`, `versionCode`, URL e SHA-256).
+- **SHA-256:** `506e7f505d49bf4aa7e1d5107b3ab158c697e8e4cbb9c810560e3b8c15948bb9`.
 
-Código-fonte, certificados privados, credenciais, dados de usuários e materiais confidenciais **não são publicados aqui**.
+A release 0.9.2 fortalece as verificações de conta Google antes de restaurações e a proteção contra downloads OTA simultâneos. Os backups são opcionais, criptografados antes do envio; **a chave de recuperação fica na mesma conta Google que a cópia**, de modo que não há criptografia de ponta a ponta contra o provedor.
 
-## Segurança
-A atualização acontece após a confirmação do usuário pelo instalador Android. A aplicação verifica integridade SHA-256, versão, identificador de pacote e assinatura do APK antes de iniciar a instalação.
+## Atualização
 
-Fluma **não diagnostica, não oferece psicoterapia e não substitui atendimento médico ou emergencial**. Se há perigo imediato no Brasil, acione SAMU 192.
+Na versão instalada, abra **Perfil → Aplicativo → Verificar atualizações** (ou o botão equivalente). Confirme a atualização no instalador Android. **Não desinstale a versão anterior nem limpe o armazenamento**; confirme seu backup antes de atualizar.
+
+O app confere SHA-256, pacote, versão e certificado do APK. A instalação depende da sua confirmação. Releases antigas permanecem disponíveis no histórico para rastreabilidade, mas não devem ser instaladas por cima de versões mais recentes como downgrade.
+
+## Estágio do produto
+
+**Prévia técnica pública**, ainda em homologação funcional da 0.9.2 no Android real. Testes negativos de OTA e backup automático, restauração com OAuth Google em instalação independente, auditorias LGPD/segurança, revisão clínica dos artigos e análise jurídica/regulatória **continuam pendentes**.
+
+Fluma **não diagnostica, não presta psicoterapia, não prevê crises e não substitui profissionais ou serviços de emergência**. Em perigo imediato no Brasil, contate o serviço de emergência adequado (por exemplo, SAMU 192).
+
+Este repositório publica apenas APKs e metadados públicos de distribuição. Código-fonte, keystore, segredos OAuth, tokens, dados de Diário e outras informações pessoais **não são publicados aqui**.
 
 © F. Labs.
